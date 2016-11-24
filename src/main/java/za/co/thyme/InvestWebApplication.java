@@ -43,7 +43,7 @@ public class InvestWebApplication {
 	    	http
 	        .httpBasic().and()
 	        .authorizeRequests()
-	          .antMatchers("/index.html", "/home.html", "/login.html", "/").permitAll().anyRequest()
+	          .antMatchers("/index.html", "/", "/templates/**").permitAll().anyRequest()
 	          .authenticated().and()
 	        .csrf()
 	          .csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse());

@@ -2,7 +2,10 @@
 	<group name="angular-bootstrap">
 		<css>webjar:bootstrap/3.3.7-1/less/bootstrap.less</css>
 		<css>
-			file:./src/main/wro/main.less
+			file:./src/main/resources/static/css/thyme.css
+		</css>
+		<css>
+			file:./src/main/resources/static/css/animate.css
 		</css>
 		<js>webjar:jquery/2.2.4/jquery.min.js</js>
 		<js>webjar:angularjs/1.4.9/angular.min.js</js>

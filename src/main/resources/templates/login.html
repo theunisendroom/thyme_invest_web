@@ -1,0 +1,18 @@
+<div class="top" style="width: 100%;">
+	<h1 id="title" style="width: 100%;">
+		<span id="logo">Thyme <span>Invest</span></span>
+	</h1>
+</div>
+<div class="login-box animated fadeInUp">
+	<div class="box-header">
+		<h2>Log In</h2>
+	</div>
+	<label>Username</label> <br /> <input type="text" ng-model="credentials.username">
+	<br /> <label>Password</label> <br /> <input type="password"
+		ng-model="credentials.password"> <br />
+	<div class="alert alert-danger" ng-show="error">There
+		was a problem logging in. Please try again.</div>
+	<button ng-click="login()">Sign In</button>
+	<br /> <a href="#"><p class="small">Forgot your password?</p></a>
+	<br>
+</div>
